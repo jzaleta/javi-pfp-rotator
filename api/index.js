@@ -1,5 +1,5 @@
 import { WebClient } from "@slack/web-api";
-import axios = from "axios"
+import axios from "axios"
 const images = {
   "morning": "https://cloud-5y6hx4kva-hack-club-bot.vercel.app/0exploration-cabin.png",
   "afternoon": "https://cloud-5y6hx4kva-hack-club-bot.vercel.app/1forest-astronaut.png",
