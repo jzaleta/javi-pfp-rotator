@@ -2,6 +2,7 @@ import { WebClient } from "@slack/web-api"
 import axios from "axios"
 const images = {
   "morning": "https://cloud-5y6hx4kva-hack-club-bot.vercel.app/0exploration-cabin.png",
+  "noon": "https://avatars.githubusercontent.com/j-cordz",
   "afternoon": "https://cloud-5y6hx4kva-hack-club-bot.vercel.app/1forest-astronaut.png",
   "night": "https://cloud-5y6hx4kva-hack-club-bot.vercel.app/2grassland-robot.png"
 } 
@@ -13,7 +14,12 @@ async function setPFP() {
       responseType: "arraybuffer",
     });
   }
-  else if (12 < hour && hour < 20) {
+  else if (12 < hour && hour < 17) {
+    image = await axios.get(images.noon, {
+      responseType: "arraybuffer",
+    });
+  }
+  else if (17 < hour && hour < 20) {
     image = await axios.get(images.afternoon, {
       responseType: "arraybuffer",
     });
