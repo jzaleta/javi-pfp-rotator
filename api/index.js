@@ -2,7 +2,7 @@ import { WebClient } from "@slack/web-api"
 import axios from "axios"
 const images = {
   "morning": "https://cloud-5y6hx4kva-hack-club-bot.vercel.app/0exploration-cabin.png",
-  "noon": "https://avatars.githubusercontent.com/j-cordz",
+  "noon": "https://github.com/j-cordz.png",
   "afternoon": "https://cloud-5y6hx4kva-hack-club-bot.vercel.app/1forest-astronaut.png",
   "night": "https://cloud-5y6hx4kva-hack-club-bot.vercel.app/2grassland-robot.png"
 } 
