@@ -2,20 +2,20 @@ import { WebClient } from "@slack/web-api"
 import axios from "axios"
 const images = {
   "morning": [
-    "images/morning/image1.jpg",
-    "images/morning/image2.jpg",
-    "images/morning/image3.jpg"
+    "https://javi-pfp-rotator.vercel.app/images/morning/exploration-cabin.png",
+    "https://javi-pfp-rotator.vercel.app/images/morning/space-study.png",
+    "https://javi-pfp-rotator.vercel.app/images/morning/submerged-library.png"
   ],
   "noon": "https://github.com/j-cordz.png",
   "afternoon": [
-    "images/afternoon/image1.jpg",
-    "images/afternoon/image2.jpg",
-    "images/afternoon/image3.jpg"
+    "https://javi-pfp-rotator.vercel.app/images/afternoon/sunset-astronaut.png",
+    "https://javi-pfp-rotator.vercel.app/images/afternoon/cosmic-city.png",
+    "https://javi-pfp-rotator.vercel.app/images/afternoon/dino-arrival.png"
   ],
   "night": [
-    "images/night/image1.jpg",
-    "images/night/image2.jpg",
-    "images/night/image3.jpg"
+    "https://javi-pfp-rotator.vercel.app/images/night/robot-astronomer.png",
+    "https://javi-pfp-rotator.vercel.app/images/night/starry-cyclist.png",
+    "https://javi-pfp-rotator.vercel.app/images/night/frozen-settlement.png"
   ]
 };
 async function setPFP() {
