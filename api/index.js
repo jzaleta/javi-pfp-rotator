@@ -1,11 +1,23 @@
 import { WebClient } from "@slack/web-api"
 import axios from "axios"
 const images = {
-  "morning": "https://cloud-5y6hx4kva-hack-club-bot.vercel.app/0exploration-cabin.png",
+  "morning": [
+    "images/morning/image1.jpg",
+    "images/morning/image2.jpg",
+    "images/morning/image3.jpg"
+  ],
   "noon": "https://github.com/j-cordz.png",
-  "afternoon": "https://cloud-5y6hx4kva-hack-club-bot.vercel.app/1forest-astronaut.png",
-  "night": "https://cloud-5y6hx4kva-hack-club-bot.vercel.app/2grassland-robot.png"
-} 
+  "afternoon": [
+    "images/afternoon/image1.jpg",
+    "images/afternoon/image2.jpg",
+    "images/afternoon/image3.jpg"
+  ],
+  "night": [
+    "images/night/image1.jpg",
+    "images/night/image2.jpg",
+    "images/night/image3.jpg"
+  ]
+};
 async function setPFP() {
   var hour = new Date().getHours() - 6;
   let image;
