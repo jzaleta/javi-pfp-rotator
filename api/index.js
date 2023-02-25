@@ -7,10 +7,12 @@ const images = {
   "night": "https://cloud-5y6hx4kva-hack-club-bot.vercel.app/2grassland-robot.png"
 } 
 async function setPFP() {
-  var hour = new Date().getHours() - 6
-  let image
+  var hour = new Date().getHours() - 6;
+  let image;
   if (5 < hour && hour < 12) {
-    image = await axios.get(images.morning, {
+    const morningImages = images.morning;
+    const randomIndex = Math.floor(Math.random() * morningImages.length);
+    image = await axios.get(morningImages[randomIndex], {
       responseType: "arraybuffer",
     });
   }
@@ -20,12 +22,16 @@ async function setPFP() {
     });
   }
   else if (17 < hour && hour < 20) {
-    image = await axios.get(images.afternoon, {
+    const afternoonImages = images.afternoon;
+    const randomIndex = Math.floor(Math.random() * afternoonImages.length);
+    image = await axios.get(afternoonImages[randomIndex], {
       responseType: "arraybuffer",
     });
   }
   else {
-    image = await axios.get(images.night, {
+    const nightImages = images.night;
+    const randomIndex = Math.floor(Math.random() * nightImages.length);
+    image = await axios.get(nightImages[randomIndex], {
       responseType: "arraybuffer",
     });
   }
@@ -36,7 +42,7 @@ async function setPFP() {
   });
 }
 
-export default async (req, res) => {
-  await setPFP()
-  res.send("Started changing your PFP!")
+export default async (req, res) => {	
+  await setPFP()	
+  res.send("Started changing your PFP!")	
 }
