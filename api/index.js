@@ -15,7 +15,7 @@ const images = {
   ],
   "night": [
     "https://javi-pfp-rotator.vercel.app/images/night/robot-astronomer.png",
-    "https://javi-pfp-rotator.vercel.app/images/night/stargazing-duo.png"
+    "https://javi-pfp-rotator.vercel.app/images/night/stargazing-duo.png",
     "https://javi-pfp-rotator.vercel.app/images/night/starry-cyclist.png",
     "https://javi-pfp-rotator.vercel.app/images/night/frozen-settlement.png"
   ]
