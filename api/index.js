@@ -9,11 +9,13 @@ const images = {
   "noon": "https://github.com/j-cordz.png",
   "afternoon": [
     "https://javi-pfp-rotator.vercel.app/images/afternoon/sunset-astronaut.png",
+    "https://javi-pfp-rotator.vercel.app/images/afternoon/grassland-coder.png",
     "https://javi-pfp-rotator.vercel.app/images/afternoon/cosmic-city.png",
     "https://javi-pfp-rotator.vercel.app/images/afternoon/dino-arrival.png"
   ],
   "night": [
     "https://javi-pfp-rotator.vercel.app/images/night/robot-astronomer.png",
+    "https://javi-pfp-rotator.vercel.app/images/night/stargazing-duo.png"
     "https://javi-pfp-rotator.vercel.app/images/night/starry-cyclist.png",
     "https://javi-pfp-rotator.vercel.app/images/night/frozen-settlement.png"
   ]
