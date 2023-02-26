@@ -21,7 +21,7 @@ const images = {
   ]
 };
 async function setPFP() {
-  var hour = new Date().getHours();
+  var hour = new Date().getHours() - 6;
   let image;
   if (5 < hour && hour < 12) {
     const morningImages = images.morning;
