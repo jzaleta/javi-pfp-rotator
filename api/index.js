@@ -6,9 +6,7 @@ const images = {
     "https://javi-pfp-rotator.vercel.app/images/morning/space-study.png",
     "https://javi-pfp-rotator.vercel.app/images/morning/submerged-library.png"
   ],
-  "noon": [
-    "https://github.com/j-cordz.png"
-  ]
+  "noon": "https://github.com/j-cordz.png",
   "afternoon": [
     "https://javi-pfp-rotator.vercel.app/images/afternoon/sunset-astronaut.png",
     "https://javi-pfp-rotator.vercel.app/images/afternoon/grassland-coder.png",
