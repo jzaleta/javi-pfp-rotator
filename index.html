@@ -18,6 +18,11 @@
         alt="My profile picture"
       />
     </div>
+    <nav class="bottom-nav">
+      <a class="link" href="https://javi-pfp-rotator.vercel.app/api"
+        >Update my profile picture</a
+      >
+    </nav>
     <a
       href="https://github.com/j-cordz/javi-pfp-rotator"
       class="github-corner"
@@ -93,6 +98,16 @@
 
       .pfp img {
         max-width: 100%;
+      }
+
+      .bottom-nav {
+        position: absolute;
+        left: 50%;
+        bottom: 10%;
+        transform: translate(-50%);
+        display: flex;
+        align-items: center;
+        gap: 64px;
       }
     </style>
   </body>
