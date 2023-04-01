@@ -61,9 +61,12 @@ async function setPFP() {
 
 export default async (req, res) => {
   await setPFP();
-  res.send([
+  const phrases = [
     "Started changing your PFP!",
     "Revamped your visual identity with a sleek new profile picture!",
     "Your online presence just got an upgrade!"
-  ]);
+  ];
+  const randomIndex = Math.floor(Math.random() * phrases.length);
+  const selectedPhrase = phrases[randomIndex];
+  res.send(selectedPhrase);
 }
