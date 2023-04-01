@@ -54,6 +54,19 @@
           class="octo-body"
         ></path></svg></a
     ><style>
+      @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+
+      html,
+      body {
+        font-family: "Space Grotesk", sans-serif;
+        text-decoration: none;
+        background-color: #faf8f8;
+        opacity: 1;
+        background-image: radial-gradient(#000000 0.5px, transparent 0.5px),
+          radial-gradient(#000000 0.5px, #faf8f8 0.5px);
+        background-size: 20px 20px;
+        background-position: 0 0, 10px 10px;
+      }
       .github-corner:hover .octo-arm {
         animation: octocat-wave 560ms ease-in-out;
       }
@@ -79,18 +92,15 @@
           animation: octocat-wave 560ms ease-in-out;
         }
       }
-
       .pfp {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 100vh;
       }
-
       .pfp img {
         max-width: 100%;
       }
-
       .bottom-nav {
         position: absolute;
         left: 50%;
