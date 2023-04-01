@@ -1,6 +1,7 @@
 # javi-pfp-rotator
 
 This repo automates my profile picture in the Hack Club Slack! 
+Powered by a serverless function deployed on Vercel, being pinged by https://cron-job.org/ every 25 minutes as well as a [web dashboard](https://javi-pfp-rotator.vercel.app/).
 
 ## Contributing
 
