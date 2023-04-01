@@ -59,7 +59,11 @@ async function setPFP() {
   });
 }
 
-export default async (req, res) => {	
-  await setPFP()	
-  res.send("Revamped your visual identity with a sleek new profile picture! 🖼")	
+export default async (req, res) => {
+  await setPFP();
+  res.send([
+    "Started changing your PFP!",
+    "Revamped your visual identity with a sleek new profile picture!",
+    "Your online presence just got an upgrade!"
+  ]);
 }
