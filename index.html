@@ -13,16 +13,14 @@
 
   <body>
     <div class="pfp">
-      <img
-        src="https://scrapbook.hackclub.com/j_cordz.png"
-        alt="My profile picture"
-      />
+      <a href="https://javi-pfp-rotator.vercel.app/api">
+        <img
+          src="https://scrapbook.hackclub.com/j_cordz.png"
+          alt="My profile picture"
+        />
+      </a>
     </div>
-    <nav class="bottom-nav">
-      <a class="link" href="https://javi-pfp-rotator.vercel.app/api"
-        >Update my profile picture</a
-      >
-    </nav>
+
     <a
       href="https://github.com/j-cordz/javi-pfp-rotator"
       class="github-corner"
@@ -59,12 +57,11 @@
       html,
       body {
         font-family: "Space Grotesk", sans-serif;
-        background-color: #faf8f8;
+        background-color: #fcfaf5;
         opacity: 1;
-        background-image: radial-gradient(#000000 0.5px, transparent 0.5px),
-          radial-gradient(#000000 0.5px, #faf8f8 0.5px);
+        background-image: linear-gradient(#e9edc9 1px, transparent 1px),
+          linear-gradient(to right, #e9edc9 1px, #fcfaf5 1px);
         background-size: 20px 20px;
-        background-position: 0 0, 10px 10px;
       }
       .github-corner:hover .octo-arm {
         animation: octocat-wave 560ms ease-in-out;
@@ -99,15 +96,6 @@
       }
       .pfp img {
         max-width: 100%;
-      }
-      .bottom-nav {
-        position: absolute;
-        left: 50%;
-        bottom: 10%;
-        transform: translate(-50%);
-        display: flex;
-        align-items: center;
-        gap: 64px;
       }
       a {
         text-decoration: none;
