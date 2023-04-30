@@ -1,4 +1,10 @@
-# javi-pfp-rotator
+# ```🎩``` javi-pfp-rotator
+
+![GitHub top language](https://img.shields.io/github/languages/top/j-cordz/javi-pfp-rotator?color=red)
+![GitHub language count](https://img.shields.io/github/languages/count/j-cordz/javi-pfp-rotator)
+![GitHub license](https://img.shields.io/github/license/j-cordz/javi-pfp-rotator)
+![GitHub repo stars](https://img.shields.io/github/stars/j-cordz/javi-pfp-rotator?style=social)
+
 This repo automates my profile picture in the Hack Club Slack! 
 Powered by a serverless function deployed on Vercel, being pinged by https://cron-job.org/ every 15 minutes as well as a [web dashboard](https://javi-pfp-rotator.vercel.app/).
 
