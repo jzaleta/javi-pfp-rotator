@@ -5,6 +5,10 @@
 ![GitHub license](https://img.shields.io/github/license/j-cordz/javi-pfp-rotator)
 ![GitHub repo stars](https://img.shields.io/github/stars/j-cordz/javi-pfp-rotator?style=social)
 
+The code that powers my profile picture on the Hack Club Slack.
+
+## About
+
 This repo automates my profile picture in the Hack Club Slack! 
 Powered by a serverless function deployed on Vercel, being pinged by https://cron-job.org/ every 15 minutes as well as a [web dashboard](https://javi-pfp-rotator.vercel.app/).
 
