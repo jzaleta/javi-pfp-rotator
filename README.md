@@ -1,4 +1,4 @@
-# ```🎩``` javi-pfp-rotator
+# 🎩 javi-pfp-rotator
 
 ![GitHub top language](https://img.shields.io/github/languages/top/j-cordz/javi-pfp-rotator?color=red)
 ![GitHub language count](https://img.shields.io/github/languages/count/j-cordz/javi-pfp-rotator)
