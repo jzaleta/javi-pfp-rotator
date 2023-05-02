@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Javier Zaleta Martínez" />
+    <title>javi-pfp-rotator</title>
     <meta
       name="description"
-      content="The website that powers my profile picture on the Hack Club Slack."
+      content="The code that powers my profile picture on the Hack Club Slack."
     />
-    <title>javi-pfp-rotator</title>
+    <meta name="author" content="Javier Zaleta Martínez" />
+    <meta property="og:title" content="javi-pfp-rotator" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://javi-pfp-rotator.vercel.app/" />
+    <meta
+      property="og:image"
+      content="https://scrapbook.hackclub.com/j_cordz.png"
+    />
+    <meta
+      property="og:description"
+      content="The code that powers my profile picture on the Hack Club Slack."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎩</text></svg>"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
 
   <body>
@@ -52,17 +69,6 @@
           class="octo-body"
         ></path></svg></a
     ><style>
-      @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
-
-      html,
-      body {
-        font-family: "Space Grotesk", sans-serif;
-        background-color: #fcfaf5;
-        opacity: 1;
-        background-image: linear-gradient(#e9edc9 1px, transparent 1px),
-          linear-gradient(to right, #e9edc9 1px, #fcfaf5 1px);
-        background-size: 20px 20px;
-      }
       .github-corner:hover .octo-arm {
         animation: octocat-wave 560ms ease-in-out;
       }
@@ -87,18 +93,6 @@
         .github-corner .octo-arm {
           animation: octocat-wave 560ms ease-in-out;
         }
-      }
-      .pfp {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-      }
-      .pfp img {
-        max-width: 100%;
-      }
-      a {
-        text-decoration: none;
       }
     </style>
   </body>
