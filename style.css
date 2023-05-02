@@ -1,0 +1,23 @@
+html,
+body {
+  background-color: #fcfaf5;
+  opacity: 1;
+  background-image: linear-gradient(#e9edc9 1px, transparent 1px),
+    linear-gradient(to right, #e9edc9 1px, #fcfaf5 1px);
+  background-size: 20px 20px;
+}
+
+.pfp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.pfp img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
