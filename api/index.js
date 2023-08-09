@@ -2,25 +2,25 @@ import { WebClient } from "@slack/web-api"
 import axios from "axios"
 const images = {
   "morning": [
-    "https://javi-pfp-rotator.vercel.app/images/morning/exploration-cabin.png",
-    "https://javi-pfp-rotator.vercel.app/images/morning/space-study.png",
-    "https://javi-pfp-rotator.vercel.app/images/morning/submerged-library.png",
-    "https://javi-pfp-rotator.vercel.app/images/morning/sunrise-astronaut.png"
+    "./exploration-cabin.png",
+    "./space-study.png",
+    "./submerged-library.png",
+    "./sunrise-astronaut.png"
   ],
   "noon": [
     "https://github.com/jzaleta.png"
   ],
   "afternoon": [
-    "https://javi-pfp-rotator.vercel.app/images/afternoon/sunset-astronaut.png",
-    "https://javi-pfp-rotator.vercel.app/images/afternoon/grassland-coder.png",
-    "https://javi-pfp-rotator.vercel.app/images/afternoon/cosmic-city.png",
-    "https://javi-pfp-rotator.vercel.app/images/afternoon/dino-arrival.png"
+    "./sunset-astronaut.png",
+    "./grassland-coder.png",
+    "./cosmic-city.png",
+    "./dino-arrival.png"
   ],
   "night": [
-    "https://javi-pfp-rotator.vercel.app/images/night/robot-astronomer.png",
-    "https://javi-pfp-rotator.vercel.app/images/night/stargazing-duo.png",
-    "https://javi-pfp-rotator.vercel.app/images/night/starry-cyclist.png",
-    "https://javi-pfp-rotator.vercel.app/images/night/frozen-settlement.png"
+    "./robot-astronomer.png",
+    "./stargazing-duo.png",
+    "./starry-cyclist.png",
+    "./frozen-settlement.png"
   ]
 };
 async function setPFP() {
